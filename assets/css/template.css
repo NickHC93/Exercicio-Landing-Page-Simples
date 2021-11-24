@@ -1,0 +1,186 @@
+html {
+    width: 100%;
+    display: flex;
+}
+* {
+    font-family: 'Helvetica';
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height:120px ;
+}
+img {
+    height:120px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    flex:1;
+    background-color: black;
+    padding-left: 70px;
+    
+        
+}
+.menu {
+    display: flex;
+    align-items: center;
+    flex:1;
+    background-color: black; 
+    padding-right: auto;  
+}
+nav ul,
+nav li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    display: flex;
+    
+}
+nav .itens {
+    display: block;
+    padding: 23px;
+    padding-right: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #c7c5c6
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color:#c7c5c6;
+}
+nav a:hover {
+    color: #3c9cd7;
+        
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/pexels-victor-freitas-1092883.jpg');
+    background-position: center;
+    background-size:cover;   
+    height: 670px; 
+}
+.title {
+    font-size:36px;
+    color:white;
+    margin-top: 90px;
+}
+.regis .registration {
+    width: 765px;
+    height: 70px;
+    border-radius: 10px;
+    border:white;
+    opacity: 0.6;
+    outline:0;
+
+}
+cc {
+    color:white;
+    font-weight: none;
+}
+button {
+    background-color: #3c9cd7;
+    color:white;
+    width: 765px;
+    height: 70px;
+    border-radius: 10px;
+    border:#3c9cd7;
+    font-size: 25px;
+}
+.title_content {
+    height: 110px;
+    background-color: #3c9cd7;
+    display: flex;
+    justify-content: center;
+}
+.title_content h1 {
+    font-size:36px;
+    color:white;
+    margin-top: 40px;
+}
+.icons {
+    display: flex;
+        
+}
+.icon_1,
+.icon_2,
+.icon_3,
+.icon_4,
+.icon_5,
+.icon_6 {
+    padding: 40px;
+    align-items: center;    
+}
+.icons_first,
+.icons_second {
+    display: flex;
+    justify-content: center;
+    height: 305px;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.info_icon {
+    font-size: 18px;
+    color: #c7c5c6;
+    
+}
+.title_icon h1 {
+    font-size: 25px;
+    color: #bcbec0;
+
+}
+.content_column_2 {
+    background-color: #3c9cd7;
+    justify-content: center;
+}
+footer {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3c9cd7;
+}
+.info_footer {
+    display: flex;
+    padding: 50px;
+    color: white;
+    font-weight: bold;
+    
+}
+.social_midia {
+    display: flex;
+}
+.icon_socialmidia .imgfooter  {
+    width: 30px;
+    height: 30px;
+    padding:15px;
+    padding-top: 50px;
+}
+.icon_7,
+.icon_8,
+.icon_9,
+.icon_10,
+.icon_11,
+.icon_12 {
+    padding: 40px;
+    align-items: center;    
+}
+.icons_third,
+.icons_fourth {
+    display: flex;
+    justify-content: center;
+    height: 205px;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 60px;
+}
